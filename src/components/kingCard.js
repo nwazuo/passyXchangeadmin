@@ -2,6 +2,7 @@ import { Box, useTheme } from "@mui/material";
 
 const KingComponent = ({ color, mainText, subText }) => {
   const theme = useTheme();
+
   return (
     <Box
       sx={{
